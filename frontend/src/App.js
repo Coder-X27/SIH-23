@@ -8,6 +8,8 @@ import ARComponent from './Components/Jobs/ArComponent'
 import Login from './Components/LoginLogout/Login'
 import UserReg from './Components/LoginLogout/UserReg'
 import OrgReg from './Components/LoginLogout/OrgReg'
+import Job from './Components/Jobs/Job'
+import JobsForm from './Components/Jobs/JobsForm'
 const App = () => {
   return (
     <>
@@ -19,6 +21,8 @@ const App = () => {
           <Route element={<Login/>} exact path='/login'/>
           <Route element={<UserReg/>} exact path='/reguser'/>
           <Route element={<OrgReg/>} exact path='/regorg'/>
+          <Route element={<Job/>} exact path='/jobs'/>
+          <Route element={<JobsForm/>} exact path='/jobform'/>
         </Routes>
         <Footer/>
       </Router>

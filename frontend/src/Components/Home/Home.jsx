@@ -22,14 +22,15 @@ const Home = () => {
                 fontWeight={'medium'}
                 color={'#dd6b20'}
                 fontFamily={'montserrat'}
+                fontSize={'45px'}
               >
                 PGRKAM{' '}
                 <span style={{ color: 'black', fontFamily: 'montserrat' }}>
-                  -Program
+                  - Program
                 </span>
                 <br/>Punjab Ghar Ghar Rojgar
               </Heading>
-              <Text fontFamily={'montserrat'} color={'grey'} textAlign="center">
+              <Text fontFamily={'montserrat'} fontSize={'25px'} color={'grey'} textAlign="center">
                 Revolutionizing Job Searches. Experience AR-powered job alerts,
                 GPS-based skill matching, and AI-driven recommendations for a
                 smarter, personalized career path.

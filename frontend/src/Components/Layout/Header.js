@@ -58,7 +58,7 @@ const Header = () => {
               <Link onClick={onClose} to="/">
                 <Button leftIcon={<FaHome/>} variant="ghost">Home</Button>
               </Link>
-              <Link onClick={onClose} to="/data">
+              <Link onClick={onClose} to="/jobs">
                 <Button leftIcon={<BsBriefcaseFill/>} variant="ghost">Jobs</Button>
               </Link>
               <Link onClick={onClose} to="/request">
