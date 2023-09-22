@@ -1,4 +1,4 @@
-import { Avatar, Box, HStack, Heading, Image, Stack, Text, VStack } from '@chakra-ui/react'
+import { Avatar, Box, HStack, Heading, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 const Testimonials = () => {

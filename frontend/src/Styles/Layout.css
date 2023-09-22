@@ -1,74 +1,131 @@
-*{
-    font-family: 'Andika', sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
+* {
+  font-family: 'Andika', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 .hero {
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
 }
 
 .hero::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    /* background-color: #FF7722; */
-    background-color: rgb(204, 95, 27);
-    opacity: 0.9;
-    z-index: -1;
-    clip-path: polygon(41% 0, 100% 0, 100% 100%, 68% 100%);
-    clip-path: polygon(51% 0, 100% 0, 100% 100%, 78% 100%);
-    clip-path: polygon(51% 0, 100% 0, 100% 84%, 76% 84%);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: #FF7722; */
+  background-color: rgb(204, 95, 27);
+  opacity: 0.9;
+  z-index: -1;
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 68% 100%);
+  clip-path: polygon(51% 0, 100% 0, 100% 100%, 78% 100%);
+  clip-path: polygon(51% 0, 100% 0, 100% 84%, 76% 84%);
 }
 .bgmaker {
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
 }
 
 .bgmaker::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    /* background-color: #FF7722; */
-    background-color: #ff9933;
-    opacity: 0.9;
-    z-index: -1;
-    clip-path: polygon(0 0, 39% 0, 39% 11%, 21% 11%, 34% 44%, 0 100%);
-    clip-path: polygon(0 0, 0% 100%, 41% 50%);
-    clip-path: polygon(0 0, 100% 0, 100% 30%, 37% 30%, 37% 70%, 0 70%, 0% 70%, 0% 30%);
-    
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: #FF7722; */
+  background-color: #ff9933;
+  opacity: 0.9;
+  z-index: -1;
+  clip-path: polygon(0 0, 39% 0, 39% 11%, 21% 11%, 34% 44%, 0 100%);
+  clip-path: polygon(0 0, 0% 100%, 41% 50%);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 30%,
+    37% 30%,
+    37% 70%,
+    0 70%,
+    0% 70%,
+    0% 30%
+  );
 }
 .testi {
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
 }
 
 .testi::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    /* background-color: #FF7722; */
-    background-color: #ff9933;
-    z-index: -1;
-    clip-path: polygon(0 0, 23% 0, 0 28%, 0 83%, 50% 100%, 142% 74%, 100% 100%, 0 100%);;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: #FF7722; */
+  background-color: #ff9933;
+  z-index: -1;
+  clip-path: polygon(
+    0 0,
+    23% 0,
+    0 28%,
+    0 83%,
+    50% 100%,
+    142% 74%,
+    100% 100%,
+    0 100%
+  );
 }
-.boxdesign{
-    max-width: 30%;
-    min-height: '400px';
-    padding: '10px';
-    box-shadow: '0 0 10px 0 orange';
+.boxdesign {
+  max-width: 30%;
+  min-height: '400px';
+  padding: '10px';
+  box-shadow: '0 0 10px 0 orange';
+}
+.userReg {
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+}
+
+.userReg::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: #FF7722; */
+  /* background-color: blue; */
+  background: hsla(4, 84%, 49%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(4, 84%, 49%, 1) 0%,
+    hsla(23, 100%, 57%, 1) 16%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(4, 84%, 49%, 1) 0%,
+    hsla(23, 100%, 57%, 1) 16%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(4, 84%, 49%, 1) 0%,
+    rgba(255, 120, 36, 0.9) 16%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E62314", endColorstr="#FF7722", GradientType=1 );
+  z-index: -1;
+  clip-path: polygon(100% 0, 100% 0, 35% 0, 35% 100%, 100% 100%, 100% 100%, 48% 100%, 0 100%, 0 0);
 }
