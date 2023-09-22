@@ -15,7 +15,7 @@ const Recruiters = () => {
     <>
       <Box width={'90%'} margin={'auto'} minHeight={'auto'}>
         <Box  background={'#ff9933'} marginBottom={'100px'}>
-          <Text  fontSize={['20px','27px']} padding={'2'} margin={'5'} textAlign={'center'}>
+          <Text  fontSize={['20px','27px']} padding={'2'} marginBottom={'5'} textAlign={'center'}>
             Our Companies & Recruiters
           </Text>
         </Box>

@@ -21,7 +21,7 @@ import { Link } from 'react-router-dom';
 import navlogo from '../../Assets/Logos/logo.png'
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const isAuthenticated = true;
+  const isAuthenticated = false;
   const user={
     role:"admin"
   }
@@ -40,6 +40,7 @@ const Header = () => {
         height="12"
         rounded="full"
         onClick={onOpen}
+        zIndex={'10'}
       >
         <RiMenu5Fill />
       </Button>
@@ -107,7 +108,7 @@ const Header = () => {
                       <Button colorScheme={'orange'}>Login</Button>
                     </Link>
                     <p>OR</p>
-                    <Link onClick={onClose} to="/register">
+                    <Link onClick={onClose} to="/login">
                       <Button colorScheme={'orange'}>Sign Up</Button>
                     </Link>
                   </>

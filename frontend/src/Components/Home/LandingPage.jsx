@@ -4,6 +4,8 @@ import Process from './Process'
 import Recruiters from './Recruiters'
 import Data from './Data'
 import Features from './Features'
+import Calendar from './Calendar'
+import Testimonials from './Testimonials'
 
 const LandingPage = () => {
   return (
@@ -11,10 +13,10 @@ const LandingPage = () => {
         <Home/>
         <Data/>
         <Process/>
-        <Recruiters/>
+        <Calendar/>
         <Features/>
-        calendar
-        testimonials
+        <Recruiters/>
+        <Testimonials/>
     </>
   )
 }
