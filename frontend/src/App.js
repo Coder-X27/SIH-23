@@ -12,7 +12,6 @@ import Job from './Components/Jobs/Job'
 import JobsForm from './Components/Jobs/JobsForm'
 import OurMission from './Components/OurMission/OurMission'
 import Courses from './Components/Courses/Courses'
-import Data from './Components/Home/Data'
 import Calendar from './Components/Home/Calendar'
 import Contact from './Components/Contact/Contact'
 const App = () => {

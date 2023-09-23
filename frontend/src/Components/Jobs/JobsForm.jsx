@@ -4,8 +4,6 @@ import {
     HStack,
     Heading,
     Input,
-    InputGroup,
-    InputLeftAddon,
     Select,
     Stack,
     Text,

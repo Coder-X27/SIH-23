@@ -11,10 +11,8 @@ import {
   HStack,
   Heading,
   Image,
-  Stack,
   Tag,
   TagLabel,
-  TagLeftIcon,
   Text,
   VStack,
 } from '@chakra-ui/react';
@@ -25,7 +23,6 @@ import {
   AiOutlinePlayCircle,
   AiOutlineCalendar,
   AiFillCopy,
-  AiOutlinePlus,
 } from 'react-icons/ai';
 import { BiPlusMedical } from 'react-icons/bi';
 import { Link } from 'react-router-dom';

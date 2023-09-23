@@ -1,5 +1,4 @@
 import {
-    Box,
   Button,
   Container,
   Heading,
@@ -15,20 +14,17 @@ import { Link } from 'react-router-dom';
 import imag from '../../Assets/img/log.svg';
 import StarPicker from 'react-star-picker';
 const Course = ({
-  views,
   title,
   imageScr,
   id,
-  addToPlaylistHandler,
   creator,
   description,
-  lectureCount,
 }) => {
-  const [rating, setRating] = useState(null);
+//   const [rating, setRating] = useState(null);
 
-  const onChange = value => {
-    setRating(value);
-  };
+//   const onChange = value => {
+//     setRating(value);
+//   };
   return (
     <VStack width={'30%'} className="course" alignItems={['center', 'flex-start']} boxShadow={'0px 10px 61px 26px rgba(0,0,0,0.1) '} padding={'20px'} marginY={'20px'}>
       <Image src={imageScr} boxSize="60" objectFit={'contain'} />
@@ -49,7 +45,7 @@ const Course = ({
         />
       </HStack>
       <HStack>
-        <StarPicker colorScheme={'orange'} onChange={onChange} value={4.5} />
+        <StarPicker colorScheme={'orange'} value={4.5} />
         <Text>4.5 (1202)</Text>
       </HStack>
       <HStack>

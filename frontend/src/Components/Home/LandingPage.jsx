@@ -4,7 +4,7 @@ import Process from './Process'
 import Recruiters from './Recruiters'
 import Data from './Data'
 import Features from './Features'
-import Calendar from './Calendar'
+// import Calendar from './Calendar'
 import Testimonials from './Testimonials'
 
 const LandingPage = () => {
