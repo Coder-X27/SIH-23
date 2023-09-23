@@ -10,6 +10,11 @@ import UserReg from './Components/LoginLogout/UserReg'
 import OrgReg from './Components/LoginLogout/OrgReg'
 import Job from './Components/Jobs/Job'
 import JobsForm from './Components/Jobs/JobsForm'
+import OurMission from './Components/OurMission/OurMission'
+import Courses from './Components/Courses/Courses'
+import Data from './Components/Home/Data'
+import Calendar from './Components/Home/Calendar'
+import Contact from './Components/Contact/Contact'
 const App = () => {
   return (
     <>
@@ -23,6 +28,10 @@ const App = () => {
           <Route element={<OrgReg/>} exact path='/regorg'/>
           <Route element={<Job/>} exact path='/jobs'/>
           <Route element={<JobsForm/>} exact path='/jobform'/>
+          <Route element={<OurMission/>} exact path='/mission'/>
+          <Route element={<Courses/>} exact path='/courses'/>
+          <Route element={<Calendar/>} exact path='/events'/>
+          <Route element={<Contact/>} exact path='/contact'/>
         </Routes>
         <Footer/>
       </Router>

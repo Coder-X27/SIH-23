@@ -55,7 +55,7 @@ const Job = () => {
             textAlign={'center'}
             size={'lg'}
             colorScheme="orange"
-            variant={'solid'}
+            variant={'outline'}
             leftIcon={<BiPlusMedical fontWeight={'bolder'} />}
             marginTop={'40px'}
           >

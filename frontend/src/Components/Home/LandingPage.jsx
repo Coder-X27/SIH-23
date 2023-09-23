@@ -13,7 +13,7 @@ const LandingPage = () => {
         <Home/>
         <Data/>
         <Process/>
-        <Calendar/>
+        {/* <Calendar/> */}
         <Features/>
         <Recruiters/>
         <Testimonials/>
